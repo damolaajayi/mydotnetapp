@@ -1,4 +1,4 @@
-name: CI - Build & Test .NET API
+name: CI/CD - Build, Test, and Push to Docker Hub
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     env:
@@ -23,18 +23,16 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: 📦 Restore dependencies
-        run: dotnet restore MyDotNetApi
+        run: dotnet restore
+        working-directory: MyDotNetApi
 
       - name: 🧱 Build the app
-        run: dotnet build MyDotNetApi --no-restore --configuration Release
+        run: dotnet build --no-restore --configuration Release
+        working-directory: MyDotNetApi
 
       - name: 🧪 Run tests
-        run: dotnet test MyDotNetApi --no-build --configuration Release
-
-      - name: 🐳 Build Docker image
-        run: docker build -t mydotnetapi:latest -f MyDotNetApi/Dockerfile .
-      - name: 🛎️ Checkout code
-        uses: actions/checkout@v3
+        run: dotnet test --no-build --configuration Release
+        working-directory: MyDotNetApi
 
       - name: 🐋 Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -42,10 +40,8 @@ jobs:
       - name: 🐳 Login to Docker Hub
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
-      - name: 🧱 Build Docker image
-        run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest .
+      - name: 📦 Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest -f MyDotNetApi/Dockerfile .
 
       - name: 🚀 Push to Docker Hub
-        run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest

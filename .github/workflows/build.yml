@@ -41,7 +41,13 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: 📦 Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest -f MyDotNetApi/Dockerfile .
+        run: |
+          IMAGE_TAG=${{ github.sha }}
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:$IMAGE_TAG -t ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest MyDotNetApi
+
 
       - name: 🚀 Push to Docker Hub
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/mydotnetapi:${{ github.sha }}
+

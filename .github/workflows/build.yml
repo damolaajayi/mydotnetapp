@@ -2,9 +2,9 @@ name: CI/CD - Build, Test, and Push to Docker Hub
 
 on:
   push:
-    branches: [main]  # Or "master" depending on your branch
+    branches: [master]  # Or "master" depending on your branch
   pull_request:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-deploy:

@@ -22,6 +22,14 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
+      - name: 🧪 Debug working directory and solution
+        run: |
+          echo "CURRENT DIR:"
+          pwd
+          echo "LOOKING FOR *.sln:"
+          find . -name "*.sln"
+
+
       - name: 📦 Restore dependencies
         run: dotnet restore
         working-directory: MyDotNetApi

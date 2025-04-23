@@ -1,0 +1,12 @@
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\bin\Debug\net8.0\MyDotNetApp.Domain.deps.json
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\bin\Debug\net8.0\MyDotNetApp.Domain.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\bin\Debug\net8.0\MyDotNetApp.Domain.pdb
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.csproj.AssemblyReference.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.AssemblyInfoInputs.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.AssemblyInfo.cs
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\refint\MyDotNetApp.Domain.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\MyDotNetApp.Domain.pdb
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Domain\obj\Debug\net8.0\ref\MyDotNetApp.Domain.dll

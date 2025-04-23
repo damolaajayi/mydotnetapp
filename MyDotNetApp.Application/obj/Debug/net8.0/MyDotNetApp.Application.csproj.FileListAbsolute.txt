@@ -1,0 +1,17 @@
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Application.deps.json
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Application.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Application.pdb
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.AssemblyInfoInputs.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.AssemblyInfo.cs
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\refint\MyDotNetApp.Application.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.pdb
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\ref\MyDotNetApp.Application.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Domain.dll
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Domain.pdb
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.csproj.AssemblyReference.cache
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNet.6A9D703A.Up2Date
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\bin\Debug\net8.0\MyDotNetApp.Application.runtimeconfig.json
+C:\Users\AdedamolaAjayi\Desktop\dotnet\mydotnet\MyDotNetApi\MyDotNetApp.Application\obj\Debug\net8.0\MyDotNetApp.Application.genruntimeconfig.cache

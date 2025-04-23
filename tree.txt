@@ -1,0 +1,515 @@
+Folder PATH listing for volume Local Disk
+Volume serial number is 7A76-7A46
+C:.
+|   .dockerignore
+|   MyDotNetApi.sln
+|   tree.txt
+|   
++---MyDotNetApi
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   \---obj
+|       |   MyDotNetApp.API.csproj.nuget.dgspec.json
+|       |   MyDotNetApp.API.csproj.nuget.g.props
+|       |   MyDotNetApp.API.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       \---Debug
+|           \---net8.0
+|               |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|               |   MyDotNetApp.API.AssemblyInfo.cs
+|               |   MyDotNetApp.API.AssemblyInfoInputs.cache
+|               |   MyDotNetApp.API.assets.cache
+|               |   MyDotNetApp.API.csproj.AssemblyReference.cache
+|               |   MyDotNetApp.API.GeneratedMSBuildEditorConfig.editorconfig
+|               |   MyDotNetApp.API.GlobalUsings.g.cs
+|               |   staticwebassets.removed.txt
+|               |   
+|               +---ref
+|               +---refint
+|               \---staticwebassets
++---MyDotNetApp.API
+|   |   appsettings.Development.json
+|   |   appsettings.json
+|   |   docker-compose.yml
+|   |   Dockerfile
+|   |   MyDotNetApi.http
+|   |   MyDotNetApp.API.csproj
+|   |   MyDotNetApp.API.csproj.user
+|   |   Program.cs
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   appsettings.Development.json
+|   |           |   appsettings.json
+|   |           |   EntityFramework.dll
+|   |           |   EntityFramework.SqlServer.dll
+|   |           |   Humanizer.dll
+|   |           |   Microsoft.AspNetCore.Cryptography.Internal.dll
+|   |           |   Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+|   |           |   Microsoft.Bcl.AsyncInterfaces.dll
+|   |           |   Microsoft.Build.Locator.dll
+|   |           |   Microsoft.CodeAnalysis.CSharp.dll
+|   |           |   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+|   |           |   Microsoft.CodeAnalysis.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+|   |           |   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+|   |           |   Microsoft.EntityFrameworkCore.Abstractions.dll
+|   |           |   Microsoft.EntityFrameworkCore.Design.dll
+|   |           |   Microsoft.EntityFrameworkCore.dll
+|   |           |   Microsoft.EntityFrameworkCore.Relational.dll
+|   |           |   Microsoft.Extensions.Caching.Abstractions.dll
+|   |           |   Microsoft.Extensions.Caching.Memory.dll
+|   |           |   Microsoft.Extensions.Configuration.Abstractions.dll
+|   |           |   Microsoft.Extensions.Configuration.dll
+|   |           |   Microsoft.Extensions.Configuration.FileExtensions.dll
+|   |           |   Microsoft.Extensions.Configuration.Json.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+|   |           |   Microsoft.Extensions.DependencyInjection.dll
+|   |           |   Microsoft.Extensions.DependencyModel.dll
+|   |           |   Microsoft.Extensions.FileProviders.Abstractions.dll
+|   |           |   Microsoft.Extensions.FileProviders.Physical.dll
+|   |           |   Microsoft.Extensions.FileSystemGlobbing.dll
+|   |           |   Microsoft.Extensions.Identity.Core.dll
+|   |           |   Microsoft.Extensions.Logging.Abstractions.dll
+|   |           |   Microsoft.Extensions.Logging.dll
+|   |           |   Microsoft.Extensions.Options.dll
+|   |           |   Microsoft.Extensions.Primitives.dll
+|   |           |   Microsoft.OpenApi.dll
+|   |           |   Mono.TextTemplating.dll
+|   |           |   MyDotNetApp.API.deps.json
+|   |           |   MyDotNetApp.API.dll
+|   |           |   MyDotNetApp.API.exe
+|   |           |   MyDotNetApp.API.pdb
+|   |           |   MyDotNetApp.API.runtimeconfig.json
+|   |           |   MyDotNetApp.API.staticwebassets.endpoints.json
+|   |           |   MyDotNetApp.Application.dll
+|   |           |   MyDotNetApp.Application.pdb
+|   |           |   MyDotNetApp.Domain.dll
+|   |           |   MyDotNetApp.Domain.pdb
+|   |           |   MyDotNetApp.Infrastructure.dll
+|   |           |   MyDotNetApp.Infrastructure.pdb
+|   |           |   Npgsql.dll
+|   |           |   Npgsql.EntityFrameworkCore.PostgreSQL.dll
+|   |           |   Swashbuckle.AspNetCore.Swagger.dll
+|   |           |   Swashbuckle.AspNetCore.SwaggerGen.dll
+|   |           |   Swashbuckle.AspNetCore.SwaggerUI.dll
+|   |           |   System.CodeDom.dll
+|   |           |   System.Composition.AttributedModel.dll
+|   |           |   System.Composition.Convention.dll
+|   |           |   System.Composition.Hosting.dll
+|   |           |   System.Composition.Runtime.dll
+|   |           |   System.Composition.TypedParts.dll
+|   |           |   System.Diagnostics.DiagnosticSource.dll
+|   |           |   System.IO.Pipelines.dll
+|   |           |   System.Text.Encodings.Web.dll
+|   |           |   System.Text.Json.dll
+|   |           |   
+|   |           +---cs
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---de
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---es
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---fr
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---it
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ja
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ko
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---pl
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---pt-BR
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---ru
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---runtimes
+|   |           |   \---browser
+|   |           |       \---lib
+|   |           |           \---net8.0
+|   |           |                   System.Text.Encodings.Web.dll
+|   |           |                   
+|   |           +---tr
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           +---zh-Hans
+|   |           |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |           |       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |           |       Microsoft.CodeAnalysis.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |           |       Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |           |       
+|   |           \---zh-Hant
+|   |                   Microsoft.CodeAnalysis.CSharp.resources.dll
+|   |                   Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+|   |                   Microsoft.CodeAnalysis.resources.dll
+|   |                   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+|   |                   Microsoft.CodeAnalysis.Workspaces.resources.dll
+|   |                   
+|   +---Controllers
+|   |       UserController.cs
+|   |       
+|   +---Extensions
+|   |       ServiceExtensions.cs
+|   |       
+|   +---Filters
+|   +---Middlewares
+|   +---obj
+|   |   |   MyDotNetApi.csproj.nuget.dgspec.json
+|   |   |   MyDotNetApi.csproj.nuget.g.props
+|   |   |   MyDotNetApi.csproj.nuget.g.targets
+|   |   |   MyDotNetApp.API.csproj.EntityFrameworkCore.targets
+|   |   |   MyDotNetApp.API.csproj.nuget.dgspec.json
+|   |   |   MyDotNetApp.API.csproj.nuget.g.props
+|   |   |   MyDotNetApp.API.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   +---Container
+|   |   |       AbsoluteOutputAssemblyPath.cache
+|   |   |       AdditionalProbingPaths.cache
+|   |   |       ContainerCreationResult.cache
+|   |   |       ContainerDevelopmentMode.cache
+|   |   |       ContainerId.cache
+|   |   |       ContainerName.cache
+|   |   |       ContainerOperatingSystemFlavor.cache
+|   |   |       ContainerRunContext.cache
+|   |   |       ContainerRuntimeID.cache
+|   |   |       DebuggeeArguments.cache
+|   |   |       DebuggeeKillProcessCommand.cache
+|   |   |       DebuggeeProgram.cache
+|   |   |       DebuggeeWorkingDirectory.cache
+|   |   |       DistrolessHelperSupported.cache
+|   |   |       FastModeProjectMountDirectory.cache
+|   |   |       ImageBuildContext.cache
+|   |   |       ImageId.cache
+|   |   |       LaunchedImageId.cache
+|   |   |       OperatingSystemName.cache
+|   |   |       TargetFramework.cache
+|   |   |       VolumeMappings.cache
+|   |   |       VolumeMappings2.cache
+|   |   |       VsDbgScript.cache
+|   |   |       
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|   |           |   ApiEndpoints.json
+|   |           |   apphost.exe
+|   |           |   MyDotNet.068201A9.Up2Date
+|   |           |   MyDotNetApi.AssemblyInfo.cs
+|   |           |   MyDotNetApi.AssemblyInfoInputs.cache
+|   |           |   MyDotNetApi.assets.cache
+|   |           |   MyDotNetApi.csproj.AssemblyReference.cache
+|   |           |   MyDotNetApi.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   MyDotNetApi.GlobalUsings.g.cs
+|   |           |   MyDotNetApp.API.AssemblyInfo.cs
+|   |           |   MyDotNetApp.API.AssemblyInfoInputs.cache
+|   |           |   MyDotNetApp.API.assets.cache
+|   |           |   MyDotNetApp.API.csproj.AssemblyReference.cache
+|   |           |   MyDotNetApp.API.csproj.BuildWithSkipAnalyzers
+|   |           |   MyDotNetApp.API.csproj.CoreCompileInputs.cache
+|   |           |   MyDotNetApp.API.csproj.FileListAbsolute.txt
+|   |           |   MyDotNetApp.API.dll
+|   |           |   MyDotNetApp.API.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   MyDotNetApp.API.genruntimeconfig.cache
+|   |           |   MyDotNetApp.API.GlobalUsings.g.cs
+|   |           |   MyDotNetApp.API.MvcApplicationPartsAssemblyInfo.cache
+|   |           |   MyDotNetApp.API.MvcApplicationPartsAssemblyInfo.cs
+|   |           |   MyDotNetApp.API.pdb
+|   |           |   staticwebassets.build.endpoints.json
+|   |           |   staticwebassets.build.json
+|   |           |   staticwebassets.references.upToDateCheck.txt
+|   |           |   staticwebassets.removed.txt
+|   |           |   
+|   |           +---EndpointInfo
+|   |           |       MyDotNetApp.API.json
+|   |           |       MyDotNetApp.API.OpenApiFiles.cache
+|   |           |       
+|   |           +---ref
+|   |           |       MyDotNetApp.API.dll
+|   |           |       
+|   |           +---refint
+|   |           |       MyDotNetApp.API.dll
+|   |           |       
+|   |           \---staticwebassets
+|   |                   msbuild.build.MyDotNetApp.API.props
+|   |                   msbuild.buildMultiTargeting.MyDotNetApp.API.props
+|   |                   msbuild.buildTransitive.MyDotNetApp.API.props
+|   |                   
+|   \---Properties
+|           launchSettings.json
+|           
++---MyDotNetApp.Application
+|   |   DependencyInjection.cs
+|   |   MyDotNetApp.Application.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |               MyDotNetApp.Application.deps.json
+|   |               MyDotNetApp.Application.dll
+|   |               MyDotNetApp.Application.pdb
+|   |               MyDotNetApp.Domain.dll
+|   |               MyDotNetApp.Domain.pdb
+|   |               
+|   +---Common
+|   |   \---Response
+|   |           ApiResponse.cs
+|   |           
+|   +---DTOs
+|   |       UserDto.cs
+|   |       
+|   +---Interfaces
+|   |   +---Repositories
+|   |   |       IPasswordService.cs
+|   |   |       IUserRepository.cs
+|   |   |       
+|   |   \---Services
+|   |           IUserService.cs
+|   |           
+|   +---obj
+|   |   |   MyDotNetApp.Application.csproj.nuget.dgspec.json
+|   |   |   MyDotNetApp.Application.csproj.nuget.g.props
+|   |   |   MyDotNetApp.Application.csproj.nuget.g.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|   |           |   MyDotNet.6A9D703A.Up2Date
+|   |           |   MyDotNetApp.Application.AssemblyInfo.cs
+|   |           |   MyDotNetApp.Application.AssemblyInfoInputs.cache
+|   |           |   MyDotNetApp.Application.assets.cache
+|   |           |   MyDotNetApp.Application.csproj.AssemblyReference.cache
+|   |           |   MyDotNetApp.Application.csproj.BuildWithSkipAnalyzers
+|   |           |   MyDotNetApp.Application.csproj.CoreCompileInputs.cache
+|   |           |   MyDotNetApp.Application.csproj.FileListAbsolute.txt
+|   |           |   MyDotNetApp.Application.dll
+|   |           |   MyDotNetApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   MyDotNetApp.Application.GlobalUsings.g.cs
+|   |           |   MyDotNetApp.Application.pdb
+|   |           |   
+|   |           +---ref
+|   |           |       MyDotNetApp.Application.dll
+|   |           |       
+|   |           \---refint
+|   |                   MyDotNetApp.Application.dll
+|   |                   
+|   \---Services
+|           UserService.cs
+|           
++---MyDotNetApp.Domain
+|   |   MyDotNetApp.Domain.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |               MyDotNetApp.Domain.deps.json
+|   |               MyDotNetApp.Domain.dll
+|   |               MyDotNetApp.Domain.pdb
+|   |               
+|   +---Entities
+|   |       User.cs
+|   |       
+|   +---Enums
+|   |       GenderEnum.cs
+|   |       RoleEnum.cs
+|   |       
+|   \---obj
+|       |   MyDotNetApp.Domain.csproj.nuget.dgspec.json
+|       |   MyDotNetApp.Domain.csproj.nuget.g.props
+|       |   MyDotNetApp.Domain.csproj.nuget.g.targets
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   
+|       \---Debug
+|           \---net8.0
+|               |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|               |   MyDotNetApp.Domain.AssemblyInfo.cs
+|               |   MyDotNetApp.Domain.AssemblyInfoInputs.cache
+|               |   MyDotNetApp.Domain.assets.cache
+|               |   MyDotNetApp.Domain.csproj.AssemblyReference.cache
+|               |   MyDotNetApp.Domain.csproj.CoreCompileInputs.cache
+|               |   MyDotNetApp.Domain.csproj.FileListAbsolute.txt
+|               |   MyDotNetApp.Domain.dll
+|               |   MyDotNetApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+|               |   MyDotNetApp.Domain.GlobalUsings.g.cs
+|               |   MyDotNetApp.Domain.pdb
+|               |   
+|               +---ref
+|               |       MyDotNetApp.Domain.dll
+|               |       
+|               \---refint
+|                       MyDotNetApp.Domain.dll
+|                       
++---MyDotNetApp.Infrastructure
+|   |   DependencyInjection.cs
+|   |   MyDotNetApp.Infrastructure.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net8.0
+|   |               MyDotNetApp.Application.dll
+|   |               MyDotNetApp.Application.pdb
+|   |               MyDotNetApp.Domain.dll
+|   |               MyDotNetApp.Domain.pdb
+|   |               MyDotNetApp.Infrastructure.deps.json
+|   |               MyDotNetApp.Infrastructure.dll
+|   |               MyDotNetApp.Infrastructure.pdb
+|   |               MyDotNetApp.Infrastructure.runtimeconfig.json
+|   |               
+|   +---Caching
+|   +---Data
+|   |   \---DbContexts
+|   |           AppDbContext.cs
+|   |           AppDbContextFactory.cs
+|   |           DapperDbContext.cs
+|   |           DbContextExtensions.cs
+|   |           IDapperDbContext.cs
+|   |           
+|   +---ExternalServices
+|   +---Messaging
+|   +---Migrations
+|   |       20250419225908_InitialCreate.cs
+|   |       20250419225908_InitialCreate.Designer.cs
+|   |       AppDbContextModelSnapshot.cs
+|   |       
+|   +---obj
+|   |   |   MyDotNetApp.Infrastructure.csproj.EntityFrameworkCore.targets
+|   |   |   MyDotNetApp.Infrastructure.csproj.nuget.dgspec.json
+|   |   |   MyDotNetApp.Infrastructure.csproj.nuget.g.props
+|   |   |   MyDotNetApp.Infrastructure.csproj.nuget.g.targets
+|   |   |   MyDotNetApp.Infrastructure.EntityFrameworkCore.targets
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   
+|   |   \---Debug
+|   |       \---net8.0
+|   |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+|   |           |   MyDotNet.8EB9371C.Up2Date
+|   |           |   MyDotNetApp.Infrastructure.AssemblyInfo.cs
+|   |           |   MyDotNetApp.Infrastructure.AssemblyInfoInputs.cache
+|   |           |   MyDotNetApp.Infrastructure.assets.cache
+|   |           |   MyDotNetApp.Infrastructure.csproj.AssemblyReference.cache
+|   |           |   MyDotNetApp.Infrastructure.csproj.BuildWithSkipAnalyzers
+|   |           |   MyDotNetApp.Infrastructure.csproj.CoreCompileInputs.cache
+|   |           |   MyDotNetApp.Infrastructure.csproj.FileListAbsolute.txt
+|   |           |   MyDotNetApp.Infrastructure.dll
+|   |           |   MyDotNetApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+|   |           |   MyDotNetApp.Infrastructure.genruntimeconfig.cache
+|   |           |   MyDotNetApp.Infrastructure.GlobalUsings.g.cs
+|   |           |   MyDotNetApp.Infrastructure.pdb
+|   |           |   
+|   |           +---ref
+|   |           |       MyDotNetApp.Infrastructure.dll
+|   |           |       
+|   |           \---refint
+|   |                   MyDotNetApp.Infrastructure.dll
+|   |                   
+|   +---Repositories
+|   |       UserRepository.cs
+|   |       
+|   \---Security
+|           PasswordHelper.cs
+|           PasswordService.cs
+|           
+\---MyDotNetApp.Tests
+    |   MyDotNetApp.Tests.csproj
+    |   
+    +---Api.Tests
+    +---Application.Tests
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    |               MyDotNetApp.Tests.deps.json
+    |               MyDotNetApp.Tests.dll
+    |               MyDotNetApp.Tests.pdb
+    |               
+    +---Infrastructure.Tests
+    \---obj
+        |   MyDotNetApp.Tests.csproj.nuget.dgspec.json
+        |   MyDotNetApp.Tests.csproj.nuget.g.props
+        |   MyDotNetApp.Tests.csproj.nuget.g.targets
+        |   project.assets.json
+        |   project.nuget.cache
+        |   
+        \---Debug
+            \---net8.0
+                |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                |   MyDotNetApp.Tests.AssemblyInfo.cs
+                |   MyDotNetApp.Tests.AssemblyInfoInputs.cache
+                |   MyDotNetApp.Tests.assets.cache
+                |   MyDotNetApp.Tests.csproj.CoreCompileInputs.cache
+                |   MyDotNetApp.Tests.csproj.FileListAbsolute.txt
+                |   MyDotNetApp.Tests.dll
+                |   MyDotNetApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+                |   MyDotNetApp.Tests.GlobalUsings.g.cs
+                |   MyDotNetApp.Tests.pdb
+                |   
+                +---ref
+                |       MyDotNetApp.Tests.dll
+                |       
+                \---refint
+                        MyDotNetApp.Tests.dll
+                        

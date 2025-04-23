@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.API\\MyDotNetApp.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.API\\MyDotNetApp.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.API\\MyDotNetApp.API.csproj",
+        "projectName": "MyDotNetApp.API",
+        "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.API\\MyDotNetApp.API.csproj",
+        "packagesPath": "C:\\Users\\AdedamolaAjayi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdedamolaAjayi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\MyDotNetApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\MyDotNetApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\MyDotNetApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\MyDotNetApp.Application.csproj",
+        "projectName": "MyDotNetApp.Application",
+        "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\MyDotNetApp.Application.csproj",
+        "packagesPath": "C:\\Users\\AdedamolaAjayi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdedamolaAjayi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj",
+        "projectName": "MyDotNetApp.Domain",
+        "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\AdedamolaAjayi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdedamolaAjayi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\MyDotNetApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\MyDotNetApp.Infrastructure.csproj",
+        "projectName": "MyDotNetApp.Infrastructure",
+        "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\MyDotNetApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AdedamolaAjayi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AdedamolaAjayi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\MyDotNetApp.Application.csproj": {
+                "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Application\\MyDotNetApp.Application.csproj"
+              },
+              "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\AdedamolaAjayi\\Desktop\\dotnet\\mydotnet\\MyDotNetApi\\MyDotNetApp.Domain\\MyDotNetApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

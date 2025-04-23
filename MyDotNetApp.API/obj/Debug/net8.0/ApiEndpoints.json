@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "MyDotNetApp.API.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/users/adduser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "MyDotNetApp.Application.DTOs.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyDotNetApp.API.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/users/getusers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotNetApp.Infrastructure", "MyDotNetApp.Infrastructure\MyDotNetApp.Infrastructure.csproj", "{C412A55B-D9A7-479F-83D2-2905F37D7F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotNetApp.Domain", "MyDotNetApp.Domain\MyDotNetApp.Domain.csproj", "{CBF07CDE-E479-41DF-B247-6D489F7C8E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotNetApp.Application", "MyDotNetApp.Application\MyDotNetApp.Application.csproj", "{2FB24B67-995D-4DB1-83CE-317BA2B4AB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotNetApp.Tests", "MyDotNetApp.Tests\MyDotNetApp.Tests.csproj", "{5BC55A53-26D2-41B2-9BC7-A8459097798D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDotNetApp.API", "MyDotNetApp.API\MyDotNetApp.API.csproj", "{CE83E6F5-CE20-EF23-EF5A-62DACBCDB554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C412A55B-D9A7-479F-83D2-2905F37D7F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C412A55B-D9A7-479F-83D2-2905F37D7F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C412A55B-D9A7-479F-83D2-2905F37D7F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C412A55B-D9A7-479F-83D2-2905F37D7F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF07CDE-E479-41DF-B247-6D489F7C8E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF07CDE-E479-41DF-B247-6D489F7C8E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF07CDE-E479-41DF-B247-6D489F7C8E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF07CDE-E479-41DF-B247-6D489F7C8E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB24B67-995D-4DB1-83CE-317BA2B4AB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB24B67-995D-4DB1-83CE-317BA2B4AB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB24B67-995D-4DB1-83CE-317BA2B4AB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB24B67-995D-4DB1-83CE-317BA2B4AB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC55A53-26D2-41B2-9BC7-A8459097798D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC55A53-26D2-41B2-9BC7-A8459097798D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC55A53-26D2-41B2-9BC7-A8459097798D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC55A53-26D2-41B2-9BC7-A8459097798D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE83E6F5-CE20-EF23-EF5A-62DACBCDB554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE83E6F5-CE20-EF23-EF5A-62DACBCDB554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE83E6F5-CE20-EF23-EF5A-62DACBCDB554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE83E6F5-CE20-EF23-EF5A-62DACBCDB554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1724B68-E81C-42C4-9EF4-0938A5C41C47}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,9 @@ using MyDotNetApp.Infrastructure.Data.DbContexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.WebHost.UseUrls("http://0.0.0.0:80");
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
@@ -41,5 +44,7 @@ if (!app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGet("/", () => "MyDotNet API is live!");
 
 app.Run();
